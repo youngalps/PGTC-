@@ -1,0 +1,9 @@
+  /* The Four Sisters And The DuckBear
+            Console.WriteLine("How many chocolate eggs were collected today? ");
+            int eggCount = Convert.ToInt32(Console.ReadLine());
+            int forSisters = eggCount / 4;
+            int forDuck = eggCount % 4;
+
+            Console.WriteLine("Each Sister Gets " + forSisters);
+            Console.WriteLine("The Duck Gets " + forDuck);
+            */
