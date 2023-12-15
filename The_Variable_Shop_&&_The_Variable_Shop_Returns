@@ -1,0 +1,51 @@
+        /*  The Variable Shop && The Variable Shop Returns
+            unsigned splits the total maxium number in half and makes a range into the negative
+            Byte smallByte = 255; // 1 byte
+            short shortByte = 32767; // 2 byte
+            int intNum = 2147483647; // 4 byte
+            long longNum = 9223372036854775807; // 8 byte
+            sbyte shorterByte = 127; // 1 byte 
+            ushort doubleShort = 65535; // 2 byte unsigned
+            uint  biggerInt = 4294967295; // 4 byte unsigned
+            ulong biggerLong = 18446744073709551615; // 8 byte unsigned
+            string sentence = "Hello";
+            char letter = 'A';
+            bool isTrue = false;
+            double doubleNum = 6.022e23;
+            float bigFloater =  3.5623f;
+            decimal bigPrecision =  3.5623m; 
+
+            smallByte = 125;
+            shortByte = 3000;
+            intNum = 234203;
+            longNum = 293852903523;
+            shorterByte = 20;
+            doubleShort = 2000;
+            biggerInt = 200;
+            biggerLong = 2538852352;
+            sentence = "Hey There";
+            letter = 'B';
+            isTrue = true;
+            doubleNum = 6.022e22;
+            bigFloater = 3.5622f;
+            bigPrecision = 3.5622m;
+
+
+
+
+            Console.WriteLine(smallByte);
+            Console.WriteLine(shortByte);
+            Console.WriteLine(intNum);
+            Console.WriteLine(longNum);
+            Console.WriteLine(shorterByte);
+            Console.WriteLine(doubleShort);
+            Console.WriteLine(biggerInt);
+            Console.WriteLine(biggerLong);
+            Console.WriteLine(sentence);
+            Console.WriteLine(letter);
+            Console.WriteLine(isTrue);
+            Console.WriteLine(doubleNum);
+            Console.WriteLine(bigFloater);8
+            Console.WriteLine(bigPrecision);
+            
+            */
