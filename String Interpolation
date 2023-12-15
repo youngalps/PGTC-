@@ -1,0 +1,5 @@
+ /* String Interpolation 
+            int myFavoriteNumber = 100;
+            Console.WriteLine("Test");
+            Console.WriteLine($"My Favorite Number is {myFavoriteNumber}.");
+            */
