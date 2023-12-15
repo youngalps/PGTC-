@@ -1,0 +1,14 @@
+  /*                  The Dominion of Kings
+            Console.WriteLine("How many estates does your king have? ");
+            int numOfEstate = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How many duchys does your king have? ");
+            int numOfDuchy = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How many provinces  does your king have? ");
+            int numOfProvinces = Convert.ToInt32(Console.ReadLine());
+
+            int estate = numOfEstate += 5;
+            int duchy = numOfDuchy += 3;
+            int provinces = numOfProvinces += 6;
+            int score = estate + duchy + provinces;
+            Console.WriteLine("The king's score is "+ score);
+            */
