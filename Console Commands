@@ -1,0 +1,6 @@
+/* Console Commands
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Title = "Noah's Journey";
+            Console.Beep(440,1000);
+            */
