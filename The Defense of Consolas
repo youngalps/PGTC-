@@ -1,0 +1,21 @@
+    /* The Defense of Consolas
+            Row 6,5
+            (6, 4) X = 0 Y - 1 LEFT
+            (5, 5) X - 1 Y = 0 DOWN
+            (6, 6) X = 0 Y + 1 RIGHT
+            (7, 5) X + 1 Y = 0 UP
+        
+            Console.Title = "Defense of Consolas";
+            Console.WriteLine("Target Row");
+            int row = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Target  Column");
+            int column = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Deploy To"); 
+            
+            
+            Console.WriteLine($"({row}, {column-1})"); // Left
+            Console.WriteLine($"({row-1}, {column})"); // Down
+            Console.WriteLine($"({row}, {column+1})"); // Right
+            Console.WriteLine($"({row+1}, {column})"); // Up
+            Console.Beep(1000,4000);
+         */
