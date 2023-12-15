@@ -1,0 +1,6 @@
+/* The Triangle Farmer
+            double base1 = 2.0;
+            double height = 3.5;
+            double areaOfTriangle = base1 * height / 2;
+            Console.WriteLine(areaOfTriangle);
+            */
