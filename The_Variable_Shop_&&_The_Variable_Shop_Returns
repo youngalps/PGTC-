@@ -45,7 +45,7 @@
             Console.WriteLine(letter);
             Console.WriteLine(isTrue);
             Console.WriteLine(doubleNum);
-            Console.WriteLine(bigFloater);8
+            Console.WriteLine(bigFloater);
             Console.WriteLine(bigPrecision);
             
             */
