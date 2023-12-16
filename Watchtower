@@ -1,0 +1,89 @@
+using System;
+/*
+     Northwest - done
+ X Less then 0
+ Y Greater then 0
+ -1,1
+ 
+     North - done
+ X is Equal to 0
+ Y Greater then 0
+ 0,1
+     Northeast - done
+ X Greater Then 0
+ Y Greater then 0
+1,1
+
+      West - done
+ X Greater then 0
+ Y is equal to 0
+1,0
+     Center - done
+ X is Equal to 0
+ Y is Equal to 0
+0,0
+    East - done
+ X is Greater then 0
+ Y is Equal to 0
+1,0
+      Southwest - done
+ X Less then 0
+ Y Less then 0
+-1,-1
+       South - done
+ X Equal to 0 
+ Y Less then 0
+0,-1
+    Southeast
+ X Greater to 0 
+ Y Less then 0
+1,-1
+*/
+
+Console.WriteLine("Enter Your X coordinate:");
+int xCoord = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter Your Y coordinate:");
+int yCoord = Convert.ToInt32(Console.ReadLine());
+
+
+if (xCoord < 0 && yCoord > 0)
+{
+    Console.WriteLine("The enemey is coming Nortwest!");
+}
+else if(xCoord == 0 && yCoord > 0)
+{
+    Console.WriteLine("The enemey is coming North!");
+}
+else if(xCoord > 0 && yCoord > 0)
+{
+    Console.WriteLine("The enemey is coming Norteast!");
+}
+else if(xCoord > 0 && yCoord == 0)
+{
+    Console.WriteLine("The enemey is coming West!");
+}
+else if(xCoord == 0 && yCoord == 0)
+{
+    Console.WriteLine("The enemey is here!"!);
+}
+else if(xCoord > 0 && yCoord == 0)
+{
+    Console.WriteLine("The enemey is East!");
+}
+else if(xCoord < 0 && yCoord < 0)
+{
+    Console.WriteLine("The enemey is Southwest!");
+}
+else if(xCoord == 0 && yCoord < 0)
+{
+    Console.WriteLine("The enemey is South!");
+}
+else if(xCoord > 0 && yCoord < 0)
+{
+    Console.WriteLine("The enemey is Southeast!");
+}
+else
+{
+     Console.WriteLine("ERROR");
+}
