@@ -1,0 +1,14 @@
+
+using System;
+Console.WriteLine("Input a number:");
+string input = Console.ReadLine();
+int score = Convert.ToInt32(input);
+
+if (score % 2 == 0)
+{
+    Console.WriteLine("Tick");
+}
+else
+{
+    Console.WriteLine("Tock");
+}
