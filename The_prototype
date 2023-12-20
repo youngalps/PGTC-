@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Runtime;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   
+            
+            int playerOneNum;
+            do
+            {
+                Console.WriteLine("User 1 Enter a number between 0 and 100");
+                string playerResponse = Console.ReadLine();
+                playerOneNum = Convert.ToInt32(playerResponse);
+                
+            } while (playerOneNum > 100 || playerOneNum < 0);
+
+
+            while(true)
+            {
+                Console.WriteLine("User 2: Guess a number");
+                int guess = Convert.ToInt32(Console.ReadLine());
+
+
+              if(playerOneNum>guess) Console.WriteLine($"{guess} is to low");
+              else if(playerOneNum<guess) Console.WriteLine($"{guess} is to high");
+              else break;
+            } 
+
+            Console.WriteLine("You've Guessed The Number");
+
+        }
+    }
+}
