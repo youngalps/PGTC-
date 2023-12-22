@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Console;
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        { 
+            
+            /* My First attempt
+            I am going to keep this in here, When I wrote this I was convinced this was the correct way to do this,
+            
+
+            Future Noah
+            Apparently Using 3 loops for the sake of readabillty is a better trade off then 1 loop, In my opinon you are just ahead of your time,
+
+            But in the future:
+            Better Variable Naming
+            Seperation of responability 
+            Think about memory, Your code pointed to the same memory address and that isnt a good pratice even thought it worked, <- "even though it worked" <- Cringe
+            int[] firstArray = new int[5];
+            int[] secondArray = new int[5];
+            
+            int i;
+            for(i = 1; i < 5 ; i++)
+            {
+                // Console.WriteLine(i); Do it be loopin?
+
+                Console.WriteLine("Enter A Number:");
+                firstArray[i] = Convert.ToInt32(Console.ReadLine());
+                secondArray = firstArray;
+                Console.WriteLine($"First loop equals {firstArray[i]}");
+               Console.WriteLine($"Second loop equals {secondArray[i]}");
+            
+            }
+            */
+
+
+            int[] orginal = new int[5];
+
+            for(int item = 0; item < 5; item++)
+            {
+                Console.WriteLine("Enter a number:");
+                int number = Convert.ToInt32(Console.ReadLine());
+                orginal[item] = number; 
+        
+            }
+
+            int[] copy = new int[5];
+            for(int index = 0; index < 5; index++)
+            {
+                copy[index] = orginal[index];
+            }
+            for(int index = 0; index < 5; index++)
+            {
+                Console.WriteLine($"{orginal[index]} and {copy[index]}");
+            }   
+         
+        }   
+        
+    }
+}
